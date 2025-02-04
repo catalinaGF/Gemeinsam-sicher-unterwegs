@@ -1,0 +1,92 @@
+:root {
+    --color-lila: #ccccff;
+    --color-blue: #2244ff;
+    --color-red: #f21f23;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: massilia, sans-serif;
+}
+
+main {
+    background-color: var(--color-lila);
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 2rem 5rem;
+}
+
+@media (max-width: 960px) {
+    main {
+        padding: 0 1rem 5rem;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: var(--color-blue);
+    color: white;
+    flex-wrap: wrap;
+}
+
+.header h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.hero-container h1 {
+    font-size: 3rem;
+
+}
+
+.intro {
+    background: white;
+    padding: 3rem;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(34, 68, 255, 0.3);
+}
+
+.red-titles h1,
+.red-titles h2,
+.red-titles h3 {
+    color: var(--color-red);
+}
+
+.intro {
+    margin-bottom: 2rem;
+}
+
+.strategy {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 3rem;
+    
+    box-shadow: 0 0 10px rgba(34, 68, 255, 0.3);
+}
+
+.strategy img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.strategy-title {
+    font-size: 3rem;    
+}
+
+.strategy-images {
+    margin-bottom: 2rem;
+}
